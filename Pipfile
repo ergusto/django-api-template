@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+gunicorn = "*"
+django-heroku = "*"
+dj-rest-auth = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+psycopg2 = "*"
+whitenoise = "*"
+django-environ = "*"
+django-light = "*"
+django-cors-headers = "*"
+django-filter = "*"
+dj-database-url = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
